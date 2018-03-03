@@ -200,14 +200,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 905056983}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da2cb04c1cce95c448f82450697e074c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  X_Size: 5
-  Y_Size: 4
-  walkableTile: {fileID: 1105331757003634, guid: 2348cd729af4c014c9a3103cc5256948,
+  X_Size: 6
+  Y_Size: 6
+  walkableTile: {fileID: 1120842952093142, guid: 88dbc0d48481cf445b2f7da230d87cb3,
     type: 2}
   buildableTile: {fileID: 1058635076983904, guid: c4dbc85364b839144b6e221e0d4ba3b0,
     type: 2}

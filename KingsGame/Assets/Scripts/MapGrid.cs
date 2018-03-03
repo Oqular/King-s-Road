@@ -13,21 +13,14 @@ public class MapGrid : MonoBehaviour {
     private void Start()
     {
         grid = new GameObject[X_Size, Y_Size];
-        //size = walkableTile.GetComponent<SpriteRenderer>().size;
+        size = walkableTile.GetComponent<SpriteRenderer>().size;
+        Vector3 offset = new Vector3(-X_Size / 2.0f + 0.5f, -Y_Size / 2.0f + 0.5f, 0.0f);
         for (int x = 0; x < X_Size; x++)
         {
             for (int y = 0; y < Y_Size; y++)
             {
-                //grid[x,y] =  (GameObject)Instantiate(walkableTile, new Vector3(x * size.x, y * size.y, 0), Quaternion.identity);
+                grid[x,y] =  (GameObject)Instantiate(walkableTile, new Vector3(x * size.x, y * size.y, 0) , Quaternion.identity);
             }
         }
     }
 }
-
-//var offset = Vector3(-cols / 2.0 + 0.5, -rows / 2.0 + 0.5, 0.0);
-     
-//     for (var i = 0; i<rows; i++) {
-//         for (var j = 0; j<cols; j++) {
-//             Instantiate(prefab, Vector3(j, i, 0.0) + offset, Quaternion.identity);
-//         }
-//     }
