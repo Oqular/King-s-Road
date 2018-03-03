@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scene/LevelSelector.unity
+=======
+- path: Assets/Scene/Options.unity
+>>>>>>> origin/Options
   isLoaded: 1
   isActive: 1
